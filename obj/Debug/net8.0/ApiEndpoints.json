@@ -1,5 +1,83 @@
 [
   {
+    "ContainingType": "modul10_103022300159.Controllers.MovieControllers",
+    "Method": "GetAll",
+    "RelativePath": "api/MovieControllers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[modul10_103022300159.Movie, modul10_103022300159, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "modul10_103022300159.Controllers.MovieControllers",
+    "Method": "AddMovie",
+    "RelativePath": "api/MovieControllers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newMovie",
+        "Type": "modul10_103022300159.Movie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "modul10_103022300159.Controllers.MovieControllers",
+    "Method": "GetByIndex",
+    "RelativePath": "api/MovieControllers/{index}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "modul10_103022300159.Movie",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "modul10_103022300159.Controllers.MovieControllers",
+    "Method": "DeleteMovie",
+    "RelativePath": "api/MovieControllers/{index}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "modul10_103022300159.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
